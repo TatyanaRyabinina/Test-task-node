@@ -1,0 +1,26 @@
+{
+  "name": "node-test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.9.0",
+    "jwt": "^0.2.0",
+    "koa": "^2.6.2",
+    "koa-body": "^4.0.4",
+    "koa-jwt": "^3.5.1",
+    "koa-router": "^7.4.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.3.11",
+    "swagger-injector": "^4.0.0",
+    "yup": "^0.26.6"
+  }
+}
